@@ -1,0 +1,4 @@
+C:\Users\Mårten\Documents\Visual Studio 2012\Projects\vmtipset2\DomainClasses\bin\Debug\DomainClasses.dll
+C:\Users\Mårten\Documents\Visual Studio 2012\Projects\vmtipset2\DomainClasses\bin\Debug\DomainClasses.pdb
+C:\Users\Mårten\Documents\Visual Studio 2012\Projects\vmtipset2\DomainClasses\obj\Debug\DomainClasses.dll
+C:\Users\Mårten\Documents\Visual Studio 2012\Projects\vmtipset2\DomainClasses\obj\Debug\DomainClasses.pdb

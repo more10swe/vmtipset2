@@ -1,0 +1,30 @@
+﻿@using System.Web.Optimization
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>VM-tipset, jao</title>
+        @Styles.Render("~/bundles/vm-css-bundle")
+        @Scripts.Render("~/bundles/vm-js-bundle")
+    </head>
+
+    <body>
+        <header>
+            Things about to go down (or up)
+        </header>
+        <div>
+            <h1>This is VM-tipset.</h1>
+        </div>
+        <div id="main">
+            @RenderBody()
+        </div>
+        <footer>
+            This is footy.
+        </footer>
+    </body>
+</html>
