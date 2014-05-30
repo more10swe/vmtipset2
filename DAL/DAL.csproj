@@ -60,6 +60,10 @@
       <Project>{1EA7F6F8-B52A-4663-B53C-B6BA331761F6}</Project>
       <Name>DomainClasses</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ServiceContracts\ServiceContracts.csproj">
+      <Project>{4DA77CAA-C03D-4C05-A9C4-92AF6A5D3BA3}</Project>
+      <Name>ServiceContracts</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
