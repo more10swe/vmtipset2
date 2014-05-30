@@ -11,7 +11,7 @@ namespace VM_Tipset_2.Controllers
         //
         // GET: /Login/
 
-        public ActionResult Index()
+        public ActionResult SignIn()
         {
             return View();
         }
