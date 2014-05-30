@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace VM_Tipset_2.Controllers
 {
+    [Authorize]
     public class AccountController : Controller
     {
         //
