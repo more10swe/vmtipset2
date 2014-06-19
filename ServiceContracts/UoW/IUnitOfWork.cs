@@ -1,5 +1,4 @@
 ﻿using DomainClasses;
-using ServiceContracts.DomainClasses.Interfaces;
 
 namespace ServiceContracts.UoW
 {

@@ -1,0 +1,51 @@
+﻿/* MEDIA QUERIES */
+@media screen and (max-width: 700px)
+{
+    body {
+        height: 80px;
+        width: 100%;    
+    }
+    
+}
+
+/* ELEMENTS STYLING */
+footer 
+{
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    background-color: green;
+    color: white;
+    bottom: 0;
+}
+
+header 
+{
+    text-align: center;
+    font-style: italic;    
+}
+
+h1
+{
+    display: block;
+    background-color: lightgreen;
+    padding: 20px;
+
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h2
+{
+    display: inline-block;
+    background-color: lightcyan;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+/* ID & CLASS STYLING */
+#main 
+{
+    margin: 20px;
+    padding: 20px;
+}

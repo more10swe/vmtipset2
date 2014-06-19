@@ -6,7 +6,7 @@ namespace DomainClasses
     public class User
     {
         // Primitive properties (enligt plural)
-        [Key]
+        [Key] //prova att tabort dessa!
         public int UserId { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }

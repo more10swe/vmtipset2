@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vmtipset2.Tests", "vmtipset
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Domain", "01 - Domain", "{EFC5CB27-459E-4ED5-85EF-3DE7A4599E4A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Service Contracts", "02 - Service Contracts", "{C2D0441D-6124-4D47-A243-3E9991D70536}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Contracts", "02 - Contracts", "{C2D0441D-6124-4D47-A243-3E9991D70536}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Services", "03 - Services", "{519855A9-D9C5-4DF4-9568-831A1A8A7CCC}"
 EndProject

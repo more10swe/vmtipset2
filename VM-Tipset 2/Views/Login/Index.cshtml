@@ -1,0 +1,21 @@
+﻿@model DomainClasses.User
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_ViewStart.cshtml";
+}
+
+<h2>Logga in</h2>
+@Html.ValidationSummary(true)
+@using (Html.BeginForm("SignIn", "Login", FormMethod.Post))
+{
+    @Html.LabelFor(m => m.Username)
+    @Html.TextBoxFor(m => m.Username)
+    @Html.ValidationMessageFor(m => m.Username)
+    <br />
+    @Html.LabelFor(m => m.Password)
+    @Html.PasswordFor(m => m.Password)
+    @Html.ValidationMessageFor(m => m.Password)
+    <br />
+    <input type="submit" value="Logga in" />
+}

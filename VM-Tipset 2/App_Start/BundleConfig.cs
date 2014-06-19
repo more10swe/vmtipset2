@@ -21,7 +21,8 @@ namespace VM_Tipset_2.App_Start
 
             bundles.Add(new StyleBundle("~/bundles/vm-css-bundle").Include(
                         "~/Content/bootstrap.css",
-                        "~/Content/bootstrap-theme.css"));
+                        "~/Content/bootstrap-theme.css",
+                        "~/Content/main.css"));
 
             /*
             var firstOnSiteCssBundle =
